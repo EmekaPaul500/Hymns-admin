@@ -1,9 +1,9 @@
 import "./HymnLyrics.css";
 
-const HymnLyrics = () => {
+const HymnLyrics = ({ index }) => {
   return (
     <div className="hymn_lyrics_div">
-      <div>1</div>
+      <div>{index}</div>
       <input type="text" placeholder="Enter hymn lyrics" />
     </div>
   );

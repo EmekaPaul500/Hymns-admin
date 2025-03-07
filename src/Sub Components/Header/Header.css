@@ -10,9 +10,10 @@
 }
 
 .header_container > div {
+  width: 80%;
   text-align: center;
-  justify-self: center;
-  align-self: center;
+  justify-self: end;
+  align-self: flex-end;
   color: #ffffff;
 }
 
