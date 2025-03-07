@@ -1,0 +1,53 @@
+.hymn-sec {
+  display: flex;
+  gap: 1.8rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 10px #8f8f8f;
+  border-radius: 8px;
+}
+
+.hymn-music-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7b2e2f;
+  max-width: 50px;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.hymn-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hymn-div h4 {
+  font-weight: 700;
+}
+
+.hymn-div p {
+  margin: 1rem 0;
+}
+
+.hymn-btn-div {
+  display: flex;
+  align-self: flex-end;
+  gap: 1rem;
+  /* margin: auto; */
+}
+
+.hymn-btn-div button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 4px;
+  background-color: #7b2e2f;
+  color: #fff;
+}
+
+.hymn-btn-div button img {
+  margin-right: 0.5rem;
+}

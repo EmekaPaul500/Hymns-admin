@@ -1,0 +1,23 @@
+.header {
+  padding: 2.8rem 1rem;
+  background-color: #7b2e2f;
+}
+
+.header_container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header_container > div {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  color: #ffffff;
+}
+
+.header_back_button {
+  width: fit-content;
+  background: transparent;
+  border: none;
+}

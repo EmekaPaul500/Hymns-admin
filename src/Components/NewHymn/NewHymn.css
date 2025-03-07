@@ -1,0 +1,29 @@
+.new_hymn_title {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.new_hymn_title label,
+.new_hymn_title input {
+  display: block;
+}
+
+.new_hymn_title label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.new_hymn_title input {
+  width: 95%;
+  border-radius: 4px;
+  padding: 0.4rem;
+  border: 2px solid #d6d6d6;
+  background-color: #d6d6d6;
+}
+
+.new_hymn_title input::placeholder {
+  font-style: italic;
+}
+
+.new_hymn_title input:focus {
+  outline: none;
+}
