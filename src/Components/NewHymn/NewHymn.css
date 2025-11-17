@@ -7,16 +7,21 @@
   margin: 0 auto;
   padding: 2rem 0;
 }
-.new_hymn_title label,
+.new_hymn_composer{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 2rem 0;
+}
+.new_hymn_title label,.new_hymn_composer,
 .new_hymn_title input {
   display: block;
 }
 
-.new_hymn_title label {
+.new_hymn_title label,.new_hymn_composer label {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-.new_hymn_title input {
+.new_hymn_title input,.new_hymn_composer input {
   width: 95%;
   border-radius: 4px;
   padding: 0.4rem;
@@ -24,17 +29,20 @@
   background-color: #e0e0e0;
 }
 
-.new_hymn_title input::placeholder {
+.new_hymn_title input::placeholder,.new_hymn_composer input::placeholder {
   font-style: italic;
 }
 
-.new_hymn_title input:focus {
+.new_hymn_title input:focus,.new_hymn_composer:focus {
   outline: none;
 }
 
 .new_hymn_lyrics_sec {
   margin: 0 auto;
-  width: 90%;
+  width: 85%;
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .new_hymn_lyrics_sec label {

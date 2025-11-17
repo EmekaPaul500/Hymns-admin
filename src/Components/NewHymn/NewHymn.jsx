@@ -27,6 +27,13 @@ const NewHymn = () => {
         </div>
       </section>
 
+      <section className="new_hymn_composer">
+        <div>
+          <label htmlFor="">Composer</label>
+          <input placeholder="Enter Composer's Name" />
+        </div>
+      </section>
+      
       {/* Hymn Lyrics section */}
       <section className="new_hymn_lyrics_sec">
         <label>Hymn Lyrics</label>
