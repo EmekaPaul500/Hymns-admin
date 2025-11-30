@@ -26,6 +26,8 @@
   margin: 0 auto;
   width: 95%;
   max-width: 500px;
+  display:flex;
+  flex-direction: column;
 }
 .home-input-div input {
   background-color: #d6d6d6;

@@ -1,0 +1,70 @@
+/* Background blur */
+.overlay-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  /* White card */
+  .overlay-card {
+    width: 300px;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.2);
+  }
+  
+  /* round info circle */
+  .icon-circle {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+  }
+  
+  .overlay-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons layout */
+  .overlay-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .btn-outline {
+    border: 2px solid #8b1e1e;
+    background: white;
+    color: #8b1e1e;
+    padding: 10px 20px;
+    border-radius: 10pc;
+    width: 45%;
+    font-weight: bold;
+  }
+  
+  .btn-main {
+    border: none;
+    background: #8b1e1e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10pc;
+    width: 45%;
+    font-weight: bold;
+  }
+  
+  .close-btn {
+    color: #8b1e1e;
+    font-weight: bold;
+    cursor: pointer;
+  }  

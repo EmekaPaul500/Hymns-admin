@@ -1,9 +1,16 @@
 import "./Home.css";
 
+import { useContext } from "react";
+import { HymnContext } from "../../Hymncontext";
 import Hymn from "../../Sub Components/Hymn/Hymn";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const { hymns } = useContext(HymnContext);
+
+ 
+  console.log("Hymns from context:", hymns);
+
   return (
     <main className="home-main">
       <header className="home-header">
@@ -34,9 +41,19 @@ const Home = () => {
 
       {/*Hymn Div  */}
       <div className="home-hymn-div">
-        <Hymn />
-        <Hymn />
-        <Hymn />
+        {(!hymns || hymns.length === 0) ? (
+          <p>No hymns added yet.</p>
+        ) : (
+          hymns.map((h, index) => (
+            <Hymn
+              key={index}
+              index={index + 1}             
+              title={h.title}
+              lyrics={h.lyrics || []}       
+              author={h.composer}
+            />
+          ))
+        )}
       </div>
     </main>
   );

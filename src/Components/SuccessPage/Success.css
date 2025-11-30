@@ -1,0 +1,50 @@
+.success_main {
+    width: 100%;
+    height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .success_card {
+    width: 300px;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .success_icon {
+    /* background: #6d1b1b; */
+    /* color: white; */
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 28px; */
+    margin: 0 auto 20px auto;
+  }
+  
+  .success_card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .success_card p {
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .success_card button {
+    width: 100%;
+    padding: 10px;
+    background: #6d1b1b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

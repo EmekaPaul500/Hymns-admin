@@ -10,6 +10,7 @@ import {
 import Layout from "./Components/Layout";
 import Home from "./Components/Home/Home";
 import NewHymn from "./Components/NewHymn/NewHymn";
+import Success from "./Components/SuccessPage/Success";
 
 function App() {
   const router = createBrowserRouter(
@@ -17,7 +18,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/newHymn" element={<NewHymn />} />
-
+        <Route path="/success" element={<Success />} />
         {/* <Route path="/hymn" element={<Hymn />} />
         <Route path="/verses" element={<Verses />} /> */}
       </Route>

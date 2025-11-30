@@ -1,10 +1,21 @@
 import "./HymnLyrics.css";
 
-const HymnLyrics = ({ index }) => {
+const HymnLyrics = ({ index, type, onChangeText }) => {
+  const handleChange = (e) => {
+    onChangeText(e.target.value);   // send text to parent
+  };
+
   return (
     <div className="hymn_lyrics_div">
-      <div>{index}</div>
-      <input type="text" placeholder="Enter hymn lyrics" />
+      <div>
+        {type === "stanza" ? `${index}.` : "Chorus"}
+      </div>
+
+      <input
+        type="text"
+        placeholder="Enter hymn lyrics"
+        onChange={handleChange}
+      />
     </div>
   );
 };
